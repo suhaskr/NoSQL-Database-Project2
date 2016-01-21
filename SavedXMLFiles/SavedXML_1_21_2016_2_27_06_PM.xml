@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This is a No-SQL Database.-->
+<NoSqlDb>
+  <KeyType>System.Int32</KeyType>
+  <PayloadType>System.String</PayloadType>
+  <Key-Value-Pair>
+    <Key>4</Key>
+    <Element>
+      <Name>Element-4</Name>
+      <Descr>Newly added element.</Descr>
+      <timestamp>2016-01-21T14:26:51.0648985-05:00</timestamp>
+      <payload>Payload of element 4.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>7</Key>
+    <Element>
+      <Name>Element-7</Name>
+      <Descr>Description of Element-7</Descr>
+      <Children>
+        <Key>8</Key>
+        <Key>9</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+      <payload>Payload of element-7.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>3</Key>
+    <Element>
+      <Name>Element-3</Name>
+      <Descr>Newly added element.</Descr>
+      <Children>
+        <Key>4</Key>
+      </Children>
+      <timestamp>2016-01-21T14:26:54.2297978-05:00</timestamp>
+      <payload>Payload of element 3.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>1</Key>
+    <Element>
+      <Name>Elemen-1_Renamed.</Name>
+      <Descr>Edited description for element 1.</Descr>
+      <Children>
+        <Key>9</Key>
+        <Key>3</Key>
+      </Children>
+      <timestamp>2016-01-21T14:26:54.3629836-05:00</timestamp>
+      <payload>New instance of payload for element-1.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>8</Key>
+    <Element>
+      <Name>Element-8</Name>
+      <Descr>Description of Element-8</Descr>
+      <timestamp>2015-10-11T17:55:12.7790448-04:00</timestamp>
+      <payload>Payload of element-8.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>9</Key>
+    <Element>
+      <Name>Element-9</Name>
+      <Descr>Description of Element-9</Descr>
+      <timestamp>2015-10-11T17:55:12.7790448-04:00</timestamp>
+      <payload>Payload of element-3.</payload>
+    </Element>
+  </Key-Value-Pair>
+</NoSqlDb>

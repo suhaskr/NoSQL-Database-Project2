@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Demonstration xml-->
+<noSqlDb>
+  <keyType>System.Int32</keyType>
+  <payloadType>System.String</payloadType>
+</noSqlDb>

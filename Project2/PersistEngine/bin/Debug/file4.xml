@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This is a No-SQL Database.-->
+<NoSqlDb>
+  <KeyType>System.Int32</KeyType>
+  <PayloadType>System.String</PayloadType>
+  <Key-Value-Pair>
+    <Key>1</Key>
+    <Element>
+      <Name>DBElement</Name>
+      <Descr>Define element for noSQL database.</Descr>
+      <Children>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+
+  <Key-Value-Pair>
+    <Key>2</Key>
+    <Element>
+      <Name>DBElementTest</Name>
+      <Descr>Test DBElement and DBExtensions.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>5</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+
+  <Key-Value-Pair>
+    <Key>3</Key>
+    <Element>
+      <Name>DBEngine</Name>
+      <Descr>Store the database dictionary.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+
+  <Key-Value-Pair>
+    <Key>4</Key>
+    <Element>
+      <Name>DBEngineTest</Name>
+      <Descr>Test the DBEngine methods.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>5</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+
+  <Key-Value-Pair>
+    <Key>5</Key>
+    <Element>
+      <Name>DBExtensions</Name>
+      <Descr>Define extension methods for display.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+</NoSqlDb>

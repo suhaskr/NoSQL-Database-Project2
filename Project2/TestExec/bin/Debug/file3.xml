@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This is a No-SQL Database.-->
+<NoSqlDb>
+  <KeyType>System.Int32</KeyType>
+  <PayloadType>System.String</PayloadType>
+  <Key-Value-Pair>
+    <Key>9</Key>
+    <Element>
+      <Name>Element-9</Name>
+      <Descr>Description of Element-9</Descr>
+      <timestamp>2015-10-11T17:55:12.7790448-04:00</timestamp>
+      <payload>Payload of element-3.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>8</Key>
+    <Element>
+      <Name>Element-8</Name>
+      <Descr>Description of Element-8</Descr>
+      <timestamp>2015-10-11T17:55:12.7790448-04:00</timestamp>
+      <payload>Payload of element-8.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>7</Key>
+    <Element>
+      <Name>Element-7</Name>
+      <Descr>Description of Element-7</Descr>
+      <Children>
+        <Key>8</Key>
+        <Key>9</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+      <payload>Payload of element-7.</payload>
+    </Element>
+  </Key-Value-Pair>
+</NoSqlDb>

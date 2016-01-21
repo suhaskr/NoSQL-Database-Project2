@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This is a No-SQL Database.-->
+<NoSqlDb>
+  <KeyType>System.Int32</KeyType>
+  <PayloadType>System.String</PayloadType>
+  <Key-Value-Pair>
+    <Key>1</Key>
+    <Element>
+      <Name>DBElement</Name>
+      <Descr>Define element for noSQL database.</Descr>
+      <Children>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>2</Key>
+    <Element>
+      <Name>DBElementTest</Name>
+      <Descr>Test DBElement and DBExtensions.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>5</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>3</Key>
+    <Element>
+      <Name>DBEngine</Name>
+      <Descr>Store the database dictionary.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>4</Key>
+    <Element>
+      <Name>DBEngineTest</Name>
+      <Descr>Test the DBEngine methods.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>5</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>5</Key>
+    <Element>
+      <Name>DBExtensions</Name>
+      <Descr>Define extension methods for display.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>6</Key>
+    <Element>
+      <Name>Display</Name>
+      <Descr>Methods to simplify display actions.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>5</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>7</Key>
+    <Element>
+      <Name>ItemEditor</Name>
+      <Descr>Extension methods for editing DBElements</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>5</Key>
+        <Key>6</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>8</Key>
+    <Element>
+      <Name>PersistEngine</Name>
+      <Descr>Methods for saving and reading database contents from XML file</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>5</Key>
+        <Key>6</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>9</Key>
+    <Element>
+      <Name>QueryEngine</Name>
+      <Descr>Methods for querying contents of database.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>5</Key>
+        <Key>6</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>10</Key>
+    <Element>
+      <Name>Scheduler</Name>
+      <Descr>Methods for scheduling the persistance of database.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>6</Key>
+        <Key>8</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>11</Key>
+    <Element>
+      <Name>TestExec</Name>
+      <Descr>Demonstrate all the requirements.</Descr>
+      <Children>
+        <Key>1</Key>
+        <Key>3</Key>
+        <Key>6</Key>
+        <Key>7</Key>
+        <Key>8</Key>
+        <Key>9</Key>
+        <Key>10</Key>
+        <Key>12</Key>
+      </Children>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>12</Key>
+    <Element>
+      <Name>UtilityExtensions</Name>
+      <Descr>Methods to simplify project code.</Descr>
+      <timestamp>2015-10-11T17:55:12.7634188-04:00</timestamp>
+    </Element>
+  </Key-Value-Pair>
+</NoSqlDb>
